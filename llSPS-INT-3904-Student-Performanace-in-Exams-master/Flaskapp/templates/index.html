@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+​
+<head>
+    <meta charset="UTF-8">
+    <title>ML API</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../static/style.css">
+​
+    <style>
+        .login {
+            top: 20%;
+        }
+    </style>
+</head>
+<body style ="background-image: url('original.jpg'); background-size: 100% 100%;background-repeat:no-repeat;background-size: cover;">
+<h1 style="font-family:verdana;text-align:left;background-color:powderblue;">STUDENT PERFORMANCE IN EXAM</h1>
+<form action ="/login" method ="post">
+<p><text-align:leftlabel for ="gender"> CHOOSE GENDER:</label>
+<select name ="g">
+<option  value = "female">FEMALE</option>
+<option  value ="male">MALE</option>
+</select></p>
+<p><label for ="race/ethnicity"> CHOOSE RACE:</label>
+<select name ="re">
+<option value = "group A">GROUP A</option>
+<option value = "group B">GROUP B</option>
+<option value = "group c">GROUP C</option>
+<option value = "group D">GROUP D</option>
+<option value = "group E">GROUP E</option>
+</select></p>
+<p><label for ="parental level of education"> PARENTS EDUCATION:</label>
+<select name ="edu">
+<option value = "bachelor's degree">Bachelor's degree</option>
+<option value = "some college">College DIPLOMA</option>
+<option value = "master's degree">Master's degree</option>
+<option value = "associate's degree">Associate's degree </option>
+<option value = "high school">High school</option>
+<option value = "some high school">Middle school</option>
+</select></p>
+<p><label for ="lunch"> CHOOSE LUNCH:</label>
+<select  name ="d">
+<option value = "standard">STANDARD</option>
+<option value = "free/reduced">FREE</option>
+</select></p>
+<p><label for ="test preparation course"> TEST PREPARATION COURSE:</label>
+<select  name ="tpc">
+<option value ="none">NONE</option>
+<option value ="completed">DONE</option>
+</select></p>
+<p>ENTER MATH SCORE</p>
+<p><input type = "text" name = "ms"/></p>
+<p>ENTER READING SCORE</p>
+<p><input type = "text" name = "rs"/></p>
+<p>ENTER WRITING SCORE</p>
+<p><input type = "text" name = "ws"/></p>
+<p><input type = "submit" value = "click"/></p>
+<p><b>{{y}}</b></p>
+</form>
+</body>
+</html>
+
+
